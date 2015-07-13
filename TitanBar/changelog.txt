@@ -1,0 +1,152 @@
+This is a replacement for TitanBar 1.24 by Habna. You don't need the original files
+
+Todo:
+- (requested by Pulse) Add "Chicken Chasing League of Eriador" to Reputation Control http://lotro-wiki.com/index.php/Chicken_Chasing_League_of_Eriador
+- (requested by Modnar) Real time alarm.
+- (requested by Modnar) In-game time alarm
+- (requested by Modnar) User-defined control sizes
+
+Known Issues:
+- The percentages on the PlayerInfo control don't include equipment.
+- Some missing translations. (Mostly French)
+- Controls I added don't unload from submenu.
+- Reputations for Dol Amroth don't max out at first rank.
+- Some low res icons. Searching for replacements.
+
+=======================================================================================================
+v1.29.00 (21 mar 2015)
+New:
+- Tooltip for Vault (requested by Pulse). 
+- Tooltip for Shared Storage (requested by Pulse).
+
+Changed:
+- Changed scores for items in Equipment info. Score is now normalized as a score between 1 and 100. It 
+is still based on Quality and Durability, because item level isn't present in the API.
+- Removed equipment score from TitanBar. Now just shows icon.
+
+=======================================================================================================
+v1.28.00 (12 mar 2015)
+Suggested by Modnar:
+- Changes to layout of Playerinfo. You can now enable/disable alternative layout in "More Options".
+- Fixes to layout of Playerinfo.
+- Money info now highlights coins as well. 
+
+New:
+- Enabled Durability & Equipment Info. Turbine fixed the API.
+
+=======================================================================================================
+v1.27.03 (11 mar 2015)
+- Fixed background color picker
+- Fixed display with large fonts
+
+=======================================================================================================
+v1.27.02 (4 mar 2015)
+- Fixed small bug in options dialog
+- Fixed bug in German version for the Gift giver's Band wallet control.
+
+=======================================================================================================
+v1.27.01 (28 feb 2015)
+Fixes:
+- Correctly resize icon for Turbine Points in the wallet tooltip (Fix by Pulse)
+- Changed several german translations (DaBear78)
+- Fixed tooltip for "Central Gondor Silver Piece" (Started to bother me :p)
+
+=======================================================================================================
+v1.27.00 (27 feb 2015)
+Added to wallet:
+- Central Gondor Silver Piece
+- Gift-giver's Brand
+
+=======================================================================================================
+v1.26.03 (19 feb 2015)
+Fixes:
+- Fixed Infamy Freeps/Creeps Icon
+
+=======================================================================================================
+v1.26.02 (18 feb 2015)
+Fixes:
+- Russian clients now get English language instead of error.
+
+=======================================================================================================
+v1.26.01 (3 feb 2015)
+Fixes:
+- New controls now update when quantity is changed.
+- Fixed German translations for Stars of Merit (bornfight)
+
+=======================================================================================================
+v1.26 (01 feb 2015)
+Additions:
+- Added Beorning Race & Class to PlayerInfo Control
+- Added to Wallet control:
+	Amroth Silver Pieces
+	Stars of Merit
+
+Fixes:
+- Fixed percentage calculations in PlayerInfo Control
+- Fixed small bugs.
+- Fixes in German and French translations
+
+Changes:
+- Completely redesigned PlayerInfo Control
+  Percentages in control are based solely on its rating.
+- Removed most of shell commands.
+  Current available commands:
+  opt - Show menu
+  u - Unload TitanBar
+  r - Reload TitanBar
+  ra - Reset Settings
+  ? or sc - Help Info
+  pw - Show Wallet Items
+- Changed various icons to higher res in-game icons.
+- Code changes and cleanup.
+
+=======================================================================================================
+v1.25.03 (17 jan 2015)
+- Added Lvls 86 - 100 to PlayerInfo Control. (As reported by Rhyse170)
+The other stats are off. Will be fixed (hopefully) in next major release.
+
+=======================================================================================================
+v1.25.02 (16 jan 2015):
+- Fixed version number (for Plugin Compendium), but for real this time
+
+=======================================================================================================
+v1.25.01 (16 jan 2015):
+- Fixed version number (for Plugin Compendium)
+
+=======================================================================================================
+v1.25.00 (4 jan 2015):
+- Added translations for factions introduced in v.1.25.00 Beta (DE & FR) -> Thx bornfight
+- Added translations for guild ranks T8&T9 (DE) -> Thx bornfight
+- Added translations for Mithril Coins (DE & FR) -> Thx bornfight!
+
+=======================================================================================================
+v1.25.00 Beta (3 jan 2015):
+
+- Added factions (EN):
+	The Ents of Fangorn Forest
+	Dol Amroth
+	Dol Amroth – Armoury
+	Dol Amroth – Bank
+	Dol Amroth – Docks
+	Dol Amroth – Great Hall
+	Dol Amroth – Library
+	Dol Amroth – Warehouse
+	Dol Amroth – Mason
+	Dol Amroth – Swan-Knight
+	Men of Ringló Vale
+	Men of Dor-en-Ernil
+	Men of Lebennin
+	Pelargir
+
+- Added factions (DE):
+	Die Ents des Fangornwaldes
+
+- Added guild ranks (EN) UNTESTED:
+	T8 Eastemnet Master
+	T9 Westemnet Master
+
+- Added Mithril Coins to Wallet ("/titanbar mc")
+- Added Tokens of Hytbold to Wallet ("/titanbar ht")
+	
+Need translations! 
+If you notice an error, please send me a pm or post it on the boards.
