@@ -16,9 +16,9 @@ AppLocaleD = AppDirD.."Locale.";
 
 Version = Plugins["TitanBar"]:GetVersion(); --> ** TitanBar current version **
 _G.TB = {};
-FactionOrder = { 1,2,3,4,15,16,5,6,7,8,17,18,9,10,11,12,19,20,13,14,21,22,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,23,24,25,26,27,28,29 };
+FactionOrder = { 1,2,3,4,15,16,5,6,7,8,17,18,9,10,11,12,19,20,13,14,21,22,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,23,24,25,26,27,28,29 };
 WalletOrder = { 1,2,3,4,5,6,7,8,9,10,11,12,13,14 };
-maxfaction = 44; --number of faction in my db
+maxfaction = 46; --number of faction in my db
 maxgfaction = 7; --number of guild faction in my db
 maxrank = 18; -- number of guild faction rank
 maxDArank = 1; -- number of Dol Amroth rank
