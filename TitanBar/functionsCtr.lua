@@ -856,21 +856,21 @@ function LoadPlayerReputation()
 	"Les Cavaliers de Th\195\169odred", "Guilde des bijoutiers", "Guilde des cuisiniers", "Guilde des \195\169rudits", "Guilde des tailleurs", "Guilde des menuisiers", "Guilde des fabricants d'armes", 
 	"Guilde des ferroniers", "Hommes de la vall\195\169e de l'Entalluve", "Hommes des Norcrofts", "Hommes des Sutcrofts", "Hommes du Plateau",  "Peuple des Landes farouches", "Survivants des Landes farouches", 
 	"Les Eorlingas", "Les Helmingas", "Les Ents de la for\195\170t de Fangorn", "Dol Amroth", "Dol Amroth - Armurerie", "Dol Amroth - Banque", "Dol Amroth - Quais", "Dol Amroth - Palais", "Dol Amroth - Biblioth\195\168que", 
-	"Dol Amroth - Entrep\195\180t", "Dol Amroth - Atelier de Maconnerie", "Dol Amroth - Chevaliers au Cygne", "Hommes du Val de Ringl\195\179 Vale", "Hommes de Dor-en-Ernil", "Hommes du Lebennin", "Pelargir", "R\195\180deurs de l'Ithilien", "Les D\195\169fenseurs de Minas Tirith" } --end RepFR
+	"Dol Amroth - Entrep\195\180t", "Dol Amroth - Atelier de Maconnerie", "Dol Amroth - Chevaliers au Cygne", "Hommes du Val de Ringl\195\179 Vale", "Hommes de Dor-en-Ernil", "Hommes du Lebennin", "Pelargir", "R\195\180deurs de l'Ithilien", "Les D\195\169fenseurs de Minas Tirith","Cavaliers de Rohan" } --end RepFR
 
 	RepEN = { "The Ale Association", "The Eldgang", "Council of the North", "Men of Bree", "Thorin's Hall", "The Wardens of Ann\195\186minas", "Lossoth of Forochel", "The Eglain", "Rangers of Esteld\195\173n", 
 	"Elves of Rivendell", "The Mathom Society", "The Inn League", "Iron Garrison Guards", "Iron Garrison Miners", "Algraig, Men of Enedwaith", "The Grey Company", "Galadhrim", "Malledhrim", "The Riders of Stangard", 
 	"Heroes of Limlight Gorge", "Men of Dunland", "Th\195\169odred's Riders", "Jeweller's Guild", "Cook's Guild", "Scholar's Guild", "Tailor's Guild", "Woodworker's Guild", "Weaponsmith's Guild", "Metalsmith's Guild", 
 	"Men of the Entwash Vale", "Men of the Norcrofts", "Men of the Sutcrofts", "Men of the Wold", "People of Wildermore", "Survivors of Wildermore", "The Eorlingas", "The Helmingas", "The Ents of Fangorn Forest", 
 	"Dol Amroth", "Dol Amroth - Armoury", "Dol Amroth - Bank", "Dol Amroth - Docks", "Dol Amroth - Great Hall", "Dol Amroth - Library", "Dol Amroth - Warehouse", "Dol Amroth - Mason", "Dol Amroth - Swan-Knight", 
-	"Men of Ringl\195\179 Vale", "Men of Dor-en-Ernil", "Men of Lebennin", "Pelargir", "Rangers of Ithilien", "Defenders of Minas Tirith" } --end RepEN
+	"Men of Ringl\195\179 Vale", "Men of Dor-en-Ernil", "Men of Lebennin", "Pelargir", "Rangers of Ithilien", "Defenders of Minas Tirith", "Riders of Rohan" } --end RepEN
 
 	RepDE = { "Die Bier-Genossenschaft", "Die Eldgang", "Rat des Nordens", "Menschen von Bree", "Thorins Halle", "Die H\195\188ter von Ann\195\186minas", "Lossoth von Forochel", "Die Eglain", 
 	"Waldl\195\164ufer von Esteld\195\173n", "Elben von Bruchtal", "Die Mathom-Gesellschaft", "Die Gasthausliga", "W\195\164chter der eisernen Garnison", "Minenbauer der Eisernen Garnison", 
 	"Algraig, Menschen von Enedwaith", "Die Graue Schar", "Galadhrim", "Malledhrim", "Die Reiter von Stangard", "Helden der Limklar-Schlucht", "Menschen aus Dunland",  "Th\195\169odreds Reiter", "Goldschmiedegilde", 
 	"Kochgilde", "Gelehrtengilde", "Schneidergilde", "Drechslergilde", "Waffenschmiedegilde", "Schmiedegilde", "Menschen des Entwasser-Tals", "Menschen der Norhofen", "Menschen der Suthofen", "Menschen der Steppe", 
 	"Bewohner der Wildermark", "\195\156berlebende von Wildermark", "Die Eorlingas", "Die Helmingas", "Die Ents des Fangorn-Walds", "Dol Amroth", "Dol Amroth - Waffenkammer", "Dol Amroth - Bank", "Dol Amroth - Landungsbr\195\188cken", 
-	"Dol Amroth - Grosse Halle", "Dol Amroth - Bibliothek", "Dol Amroth - Lagerhaus", "Dol Amroth - Maurerei", "Dol Amroth - Schwanenritter", "Bewohner des Ringl\195\179tals", "Bewohner von Dor-en-Ernil", "Bewohner von Lebennin", "Pelargir", "Waldl\195\164ufer von Ithilien", "Verteidiger von Minas Tirith" } --end RepDE
+	"Dol Amroth - Grosse Halle", "Dol Amroth - Bibliothek", "Dol Amroth - Lagerhaus", "Dol Amroth - Maurerei", "Dol Amroth - Schwanenritter", "Bewohner des Ringl\195\179tals", "Bewohner von Dor-en-Ernil", "Bewohner von Lebennin", "Pelargir", "Waldl\195\164ufer von Ithilien", "Verteidiger von Minas Tirith", "Reiter von Rohan" } --end RepDE
 
 	--maxgfaction = 7;
 	--maxfaction = GetTotalItems( );
